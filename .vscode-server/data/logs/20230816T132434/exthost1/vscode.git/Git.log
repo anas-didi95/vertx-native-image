@@ -1,0 +1,29 @@
+2023-08-16 13:24:36.719 [info] Log level: Info
+2023-08-16 13:24:36.719 [info] Validating found git in: "git"
+2023-08-16 13:24:36.719 [info] Using git "2.41.0" from "git"
+2023-08-16 13:24:36.719 [info] > git rev-parse --show-toplevel [5ms]
+2023-08-16 13:24:36.720 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2023-08-16 13:24:36.740 [info] Open repository: /home/vscode/workspace
+2023-08-16 13:24:36.772 [info] > git config --get commit.template [12ms]
+2023-08-16 13:24:36.782 [info] No remotes found in the git config file.
+2023-08-16 13:24:36.783 [info] > git rev-parse --show-toplevel [15ms]
+2023-08-16 13:24:36.784 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/add-devcontainer refs/remotes/add-devcontainer [3ms]
+2023-08-16 13:24:36.805 [info] > git status -z -uall [12ms]
+2023-08-16 13:24:36.883 [info] > git config --get commit.template [56ms]
+2023-08-16 13:24:36.891 [info] > git rev-parse --show-toplevel [9ms]
+2023-08-16 13:24:36.902 [info] No remotes found in the git config file.
+2023-08-16 13:24:36.914 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/add-devcontainer refs/remotes/add-devcontainer [13ms]
+2023-08-16 13:24:36.927 [info] > git status -z -uall [3ms]
+2023-08-16 13:24:37.304 [info] > git check-ignore -v -z --stdin [2ms]
+2023-08-16 13:25:31.915 [info] > git config --get commit.template [4ms]
+2023-08-16 13:25:31.927 [info] No remotes found in the git config file.
+2023-08-16 13:25:31.929 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/add-devcontainer refs/remotes/add-devcontainer [3ms]
+2023-08-16 13:25:31.965 [info] > git status -z -uall [25ms]
+2023-08-16 13:25:38.528 [info] No remotes found in the git config file.
+2023-08-16 13:25:38.529 [info] > git config --get commit.template [11ms]
+2023-08-16 13:25:38.530 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/add-devcontainer refs/remotes/add-devcontainer [2ms]
+2023-08-16 13:25:38.559 [info] > git status -z -uall [19ms]
+2023-08-16 13:25:44.128 [info] No remotes found in the git config file.
+2023-08-16 13:25:44.128 [info] > git config --get commit.template [11ms]
+2023-08-16 13:25:44.129 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/add-devcontainer refs/remotes/add-devcontainer [2ms]
+2023-08-16 13:25:44.159 [info] > git status -z -uall [20ms]

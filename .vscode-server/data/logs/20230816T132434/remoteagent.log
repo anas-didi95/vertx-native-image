@@ -1,0 +1,130 @@
+2023-08-16 13:24:34.066 [info] 
+
+
+
+
+2023-08-16 13:24:34.080 [info] Installing extensions...
+2023-08-16 13:24:34.084 [info] Extension host agent started.
+2023-08-16 13:24:34.136 [info] Started initializing default profile extensions in extensions installation folder. file:///home/vscode/.vscode-server/extensions
+2023-08-16 13:24:34.151 [info] [127.0.0.1][9109590a][ManagementConnection] New connection established.
+2023-08-16 13:24:34.161 [debug] ComputeTargetPlatform: linux-x64
+2023-08-16 13:24:34.174 [info] Log level changed to info
+2023-08-16 13:24:34.212 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/vscode/.vscode-server/extensions
+2023-08-16 13:24:34.514 [info] [127.0.0.1][cd3e7545][ExtensionHostConnection] New connection established.
+2023-08-16 13:24:34.545 [info] [127.0.0.1][cd3e7545][ExtensionHostConnection] <276> Launched Extension Host Process.
+2023-08-16 13:24:35.399 [error] TypeError: Cannot read properties of undefined (reading 'cwd')
+    at g.I (/vscode/vscode-server/bin/linux-x64/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/platform/terminal/node/ptyHostMain.js:28:941)
+    at g.reviveTerminalProcesses (/vscode/vscode-server/bin/linux-x64/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/platform/terminal/node/ptyHostMain.js:28:795)
+    at g.B.<computed> (/vscode/vscode-server/bin/linux-x64/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/platform/terminal/node/ptyHostMain.js:27:22689)
+    at Object.call (/vscode/vscode-server/bin/linux-x64/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/platform/terminal/node/ptyHostMain.js:17:4867)
+    at l.s (/vscode/vscode-server/bin/linux-x64/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/platform/terminal/node/ptyHostMain.js:15:5150)
+    at l.q (/vscode/vscode-server/bin/linux-x64/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/platform/terminal/node/ptyHostMain.js:15:4661)
+    at i.value (/vscode/vscode-server/bin/linux-x64/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/platform/terminal/node/ptyHostMain.js:15:4066)
+    at k.w (/vscode/vscode-server/bin/linux-x64/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/platform/terminal/node/ptyHostMain.js:10:1902)
+    at k.fire (/vscode/vscode-server/bin/linux-x64/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/platform/terminal/node/ptyHostMain.js:10:2119)
+    at process.X (/vscode/vscode-server/bin/linux-x64/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/platform/terminal/node/ptyHostMain.js:8:27134)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:939:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-08-16 13:24:35.960 [info] Installing extension 'esbenp.prettier-vscode'...
+2023-08-16 13:24:35.962 [info] Getting Manifest... esbenp.prettier-vscode
+2023-08-16 13:24:35.966 [info] Installing extension 'vscjava.vscode-java-pack'...
+2023-08-16 13:24:35.966 [info] Getting Manifest... vscjava.vscode-java-pack
+2023-08-16 13:24:35.970 [info] Installing extension 'dbaeumer.vscode-eslint'...
+2023-08-16 13:24:35.970 [info] Getting Manifest... dbaeumer.vscode-eslint
+2023-08-16 13:24:35.979 [info] Installing extension 'visualstudioexptteam.vscodeintellicode'...
+2023-08-16 13:24:35.979 [info] Getting Manifest... visualstudioexptteam.vscodeintellicode
+2023-08-16 13:24:35.982 [info] Installing extension 'editorconfig.editorconfig'...
+2023-08-16 13:24:35.982 [info] Getting Manifest... editorconfig.editorconfig
+2023-08-16 13:24:36.061 [info] Installing extension: dbaeumer.vscode-eslint
+2023-08-16 13:24:36.066 [info] Installing extension: esbenp.prettier-vscode
+2023-08-16 13:24:36.070 [info] Installing extension: editorconfig.editorconfig
+2023-08-16 13:24:36.073 [info] Installing extension: visualstudioexptteam.vscodeintellicode
+2023-08-16 13:24:36.082 [info] Installing extension: vscjava.vscode-java-pack
+2023-08-16 13:24:36.288 [info] Installing extension 'vscodevim.vim'...
+2023-08-16 13:24:36.288 [info] Getting Manifest... vscodevim.vim
+2023-08-16 13:24:36.469 [info] Installing extension: vscodevim.vim
+2023-08-16 13:24:36.730 [info] Getting Manifest... visualstudioexptteam.intellicode-api-usage-examples
+2023-08-16 13:24:37.016 [warning] Extension signature verification failed with error 'ENOENT': dbaeumer.vscode-eslint
+2023-08-16 13:24:37.040 [warning] Extension signature verification failed with error 'ENOENT': esbenp.prettier-vscode
+2023-08-16 13:24:37.089 [warning] Extension signature verification failed with error 'ENOENT': editorconfig.editorconfig
+2023-08-16 13:24:37.181 [info] Installing extension: visualstudioexptteam.intellicode-api-usage-examples visualstudioexptteam.vscodeintellicode
+2023-08-16 13:24:37.364 [info] Extracted extension to file:///home/vscode/.vscode-server/extensions/dbaeumer.vscode-eslint-2.4.2: dbaeumer.vscode-eslint
+2023-08-16 13:24:37.370 [info] Renamed to /home/vscode/.vscode-server/extensions/dbaeumer.vscode-eslint-2.4.2
+2023-08-16 13:24:37.373 [info] Extracting extension completed. dbaeumer.vscode-eslint
+2023-08-16 13:24:37.382 [info] Extension installed successfully: dbaeumer.vscode-eslint
+2023-08-16 13:24:37.384 [info] Extension 'dbaeumer.vscode-eslint' v2.4.2 was successfully installed.
+2023-08-16 13:24:37.460 [info] Extracted extension to file:///home/vscode/.vscode-server/extensions/editorconfig.editorconfig-0.16.4: editorconfig.editorconfig
+2023-08-16 13:24:37.465 [info] Renamed to /home/vscode/.vscode-server/extensions/editorconfig.editorconfig-0.16.4
+2023-08-16 13:24:37.467 [info] Extracting extension completed. editorconfig.editorconfig
+2023-08-16 13:24:37.480 [info] Extension installed successfully: editorconfig.editorconfig
+2023-08-16 13:24:37.481 [info] Extension 'editorconfig.editorconfig' v0.16.4 was successfully installed.
+2023-08-16 13:24:37.564 [info] Extracted extension to file:///home/vscode/.vscode-server/extensions/esbenp.prettier-vscode-10.1.0: esbenp.prettier-vscode
+2023-08-16 13:24:37.570 [info] Renamed to /home/vscode/.vscode-server/extensions/esbenp.prettier-vscode-10.1.0
+2023-08-16 13:24:37.572 [info] Extracting extension completed. esbenp.prettier-vscode
+2023-08-16 13:24:37.578 [info] Extension installed successfully: esbenp.prettier-vscode
+2023-08-16 13:24:37.579 [info] Extension 'esbenp.prettier-vscode' v10.1.0 was successfully installed.
+2023-08-16 13:24:37.715 [warning] Extension signature verification failed with error 'ENOENT': visualstudioexptteam.intellicode-api-usage-examples
+2023-08-16 13:24:37.926 [info] Extracted extension to file:///home/vscode/.vscode-server/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.7: visualstudioexptteam.intellicode-api-usage-examples
+2023-08-16 13:24:37.930 [info] Renamed to /home/vscode/.vscode-server/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.7
+2023-08-16 13:24:37.932 [info] Extracting extension completed. visualstudioexptteam.intellicode-api-usage-examples
+2023-08-16 13:24:38.007 [warning] Extension signature verification failed with error 'ENOENT': vscodevim.vim
+2023-08-16 13:24:38.088 [info] Extracted extension to file:///home/vscode/.vscode-server/extensions/vscodevim.vim-1.25.2: vscodevim.vim
+2023-08-16 13:24:38.089 [warning] Extension signature verification failed with error 'ENOENT': visualstudioexptteam.vscodeintellicode
+2023-08-16 13:24:38.095 [info] Renamed to /home/vscode/.vscode-server/extensions/vscodevim.vim-1.25.2
+2023-08-16 13:24:38.099 [info] Extracting extension completed. vscodevim.vim
+2023-08-16 13:24:38.105 [info] Extension installed successfully: vscodevim.vim
+2023-08-16 13:24:38.107 [info] Extension 'vscodevim.vim' v1.25.2 was successfully installed.
+2023-08-16 13:24:38.245 [info] Getting Manifest... visualstudioexptteam.vscodeintellicode
+2023-08-16 13:24:38.771 [info] Getting Manifest... visualstudioexptteam.intellicode-api-usage-examples
+2023-08-16 13:24:38.841 [info] Getting Manifest... redhat.java
+2023-08-16 13:24:38.923 [info] Getting Manifest... vscjava.vscode-java-debug
+2023-08-16 13:24:38.993 [info] Getting Manifest... vscjava.vscode-maven
+2023-08-16 13:24:39.064 [info] Getting Manifest... vscjava.vscode-java-test
+2023-08-16 13:24:39.120 [info] Getting Manifest... vscjava.vscode-java-dependency
+2023-08-16 13:24:39.219 [info] Waiting for already requested installing extension visualstudioexptteam.vscodeintellicode vscjava.vscode-java-pack
+2023-08-16 13:24:39.219 [info] Waiting for already requested installing extension visualstudioexptteam.intellicode-api-usage-examples vscjava.vscode-java-pack
+2023-08-16 13:24:39.219 [info] Installing extension: redhat.java vscjava.vscode-java-pack
+2023-08-16 13:24:39.219 [info] Installing extension: vscjava.vscode-java-debug vscjava.vscode-java-pack
+2023-08-16 13:24:39.219 [info] Installing extension: vscjava.vscode-maven vscjava.vscode-java-pack
+2023-08-16 13:24:39.220 [info] Installing extension: vscjava.vscode-java-test vscjava.vscode-java-pack
+2023-08-16 13:24:39.220 [info] Installing extension: vscjava.vscode-java-dependency vscjava.vscode-java-pack
+2023-08-16 13:24:39.423 [warning] Extension signature verification failed with error 'ENOENT': vscjava.vscode-java-debug
+2023-08-16 13:24:39.449 [warning] Extension signature verification failed with error 'ENOENT': vscjava.vscode-java-dependency
+2023-08-16 13:24:39.462 [warning] Extension signature verification failed with error 'ENOENT': vscjava.vscode-maven
+2023-08-16 13:24:39.528 [info] Extracted extension to file:///home/vscode/.vscode-server/extensions/vscjava.vscode-java-dependency-0.23.1: vscjava.vscode-java-dependency
+2023-08-16 13:24:39.535 [info] Renamed to /home/vscode/.vscode-server/extensions/vscjava.vscode-java-dependency-0.23.1
+2023-08-16 13:24:39.539 [info] Extracting extension completed. vscjava.vscode-java-dependency
+2023-08-16 13:24:39.574 [info] Extracted extension to file:///home/vscode/.vscode-server/extensions/vscjava.vscode-java-debug-0.53.0: vscjava.vscode-java-debug
+2023-08-16 13:24:39.578 [info] Renamed to /home/vscode/.vscode-server/extensions/vscjava.vscode-java-debug-0.53.0
+2023-08-16 13:24:39.582 [info] Extracting extension completed. vscjava.vscode-java-debug
+2023-08-16 13:24:39.641 [warning] Extension signature verification failed with error 'ENOENT': redhat.java
+2023-08-16 13:24:39.871 [info] Extracted extension to file:///home/vscode/.vscode-server/extensions/vscjava.vscode-maven-0.42.0: vscjava.vscode-maven
+2023-08-16 13:24:39.876 [info] Renamed to /home/vscode/.vscode-server/extensions/vscjava.vscode-maven-0.42.0
+2023-08-16 13:24:39.879 [info] Extracting extension completed. vscjava.vscode-maven
+2023-08-16 13:24:40.755 [info] Extracted extension to file:///home/vscode/.vscode-server/extensions/visualstudioexptteam.vscodeintellicode-1.2.30: visualstudioexptteam.vscodeintellicode
+2023-08-16 13:24:40.760 [info] Renamed to /home/vscode/.vscode-server/extensions/visualstudioexptteam.vscodeintellicode-1.2.30
+2023-08-16 13:24:40.762 [info] Extracting extension completed. visualstudioexptteam.vscodeintellicode
+2023-08-16 13:24:40.766 [info] Extension installed successfully: visualstudioexptteam.intellicode-api-usage-examples
+2023-08-16 13:24:40.766 [info] Extension installed successfully: visualstudioexptteam.vscodeintellicode
+2023-08-16 13:24:40.768 [info] Finished waiting for already requested installing extension visualstudioexptteam.vscodeintellicode vscjava.vscode-java-pack
+2023-08-16 13:24:40.768 [info] Finished waiting for already requested installing extension visualstudioexptteam.intellicode-api-usage-examples vscjava.vscode-java-pack
+2023-08-16 13:24:40.768 [info] Extension 'visualstudioexptteam.vscodeintellicode' v1.2.30 was successfully installed.
+2023-08-16 13:24:41.708 [info] Extracted extension to file:///home/vscode/.vscode-server/extensions/redhat.java-1.21.0-linux-x64: redhat.java
+2023-08-16 13:24:41.713 [info] Renamed to /home/vscode/.vscode-server/extensions/redhat.java-1.21.0-linux-x64
+2023-08-16 13:24:41.715 [info] Extracting extension completed. redhat.java
+2023-08-16 13:24:42.042 [warning] Extension signature verification failed with error 'ENOENT': vscjava.vscode-java-test
+2023-08-16 13:24:42.171 [info] Extracted extension to file:///home/vscode/.vscode-server/extensions/vscjava.vscode-java-test-0.39.1: vscjava.vscode-java-test
+2023-08-16 13:24:42.176 [info] Renamed to /home/vscode/.vscode-server/extensions/vscjava.vscode-java-test-0.39.1
+2023-08-16 13:24:42.178 [info] Extracting extension completed. vscjava.vscode-java-test
+2023-08-16 13:24:42.323 [warning] Extension signature verification failed with error 'ENOENT': vscjava.vscode-java-pack
+2023-08-16 13:24:42.445 [info] Extracted extension to file:///home/vscode/.vscode-server/extensions/vscjava.vscode-java-pack-0.25.13: vscjava.vscode-java-pack
+2023-08-16 13:24:42.453 [info] Renamed to /home/vscode/.vscode-server/extensions/vscjava.vscode-java-pack-0.25.13
+2023-08-16 13:24:42.455 [info] Extracting extension completed. vscjava.vscode-java-pack
+2023-08-16 13:24:42.460 [info] Extension installed successfully: vscjava.vscode-java-dependency
+2023-08-16 13:24:42.461 [info] Extension installed successfully: vscjava.vscode-java-debug
+2023-08-16 13:24:42.461 [info] Extension installed successfully: vscjava.vscode-maven
+2023-08-16 13:24:42.461 [info] Extension installed successfully: redhat.java
+2023-08-16 13:24:42.461 [info] Extension installed successfully: vscjava.vscode-java-test
+2023-08-16 13:24:42.461 [info] Extension installed successfully: vscjava.vscode-java-pack
+2023-08-16 13:24:42.468 [info] Extension 'vscjava.vscode-java-pack' v0.25.13 was successfully installed.
