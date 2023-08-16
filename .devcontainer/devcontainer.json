@@ -3,7 +3,13 @@
 {
   "name": "Java",
   // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-  "image": "mcr.microsoft.com/devcontainers/java:1-17-bullseye",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "webservice",
+  "workspaceFolder": "/home/vscode/workspace",
+  "shutdownAction": "stopCompose",
+  "containerEnv": {
+    "HOME": "/home/vscode"
+  },
 
   "features": {
     "ghcr.io/devcontainers/features/java:1": {
@@ -11,7 +17,7 @@
       "installMaven": "false",
       "installGradle": "false"
     }
-  }
+  },
 
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   // "forwardPorts": [],
@@ -23,5 +29,5 @@
   // "customizations": {},
 
   // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-  // "remoteUser": "root"
+  "remoteUser": "vscode"
 }
