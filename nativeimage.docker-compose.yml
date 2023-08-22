@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  nativeimage:
+    build:
+      context: .
+      dockerfile: nativeimage.Dockerfile
