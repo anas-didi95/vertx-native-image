@@ -12,6 +12,7 @@ RUN native-image --static -jar nativeimage-1.0.0-SNAPSHOT-fat.jar nativeimage
 FROM alpine:3.18.3
 WORKDIR /workspace
 COPY --from=build-nativeimage /workspace/nativeimage /workspace/nativeimage
+COPY --from=build-nativeimage /workspace/reports/ /workspace/reports/
 EXPOSE 8888
 ENTRYPOINT ["sh", "-c"]
 CMD ["exec ./nativeimage run com.anasdidi.nativeimage.MainVerticle"]
