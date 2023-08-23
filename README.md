@@ -10,3 +10,6 @@ This application was generated using http://start.vertx.io
 * [Vert.x User Group](https://groups.google.com/forum/?fromgroups#!forum/vertx)
 * [Vert.x Discord](https://discord.gg/6ry7aqPWXy)
 * [Vert.x Gitter](https://gitter.im/eclipse-vertx/vertx-users)
+
+## Contact
+Created by [Anas Juwaidi](mailto:anas.didi95@gmail.com)
