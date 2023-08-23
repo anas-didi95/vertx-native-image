@@ -4,6 +4,10 @@
 
 This application was generated using http://start.vertx.io
 
+## Table Of Content
+* [Reference](#reference)
+* [Contact](#contact)
+
 ## Reference
 * [Vert.x Documentation](https://vertx.io/docs/)
 * [Vert.x Stack Overflow](https://stackoverflow.com/questions/tagged/vert.x?sort=newest&pageSize=15)
