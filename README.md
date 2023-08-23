@@ -5,8 +5,25 @@
 This application was generated using http://start.vertx.io
 
 ## Table Of Content
+* [Command Line](#command-line)
 * [Reference](#reference)
 * [Contact](#contact)
+
+## Command Line
+To launch your tests:
+```
+./mvnw clean test
+```
+
+To package your application:
+```
+./mvnw clean package
+```
+
+To run your application:
+```
+./mvnw clean compile exec:java
+```
 
 ## Reference
 * [Vert.x Documentation](https://vertx.io/docs/)
