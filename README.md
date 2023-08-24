@@ -11,6 +11,8 @@ A native-image is a optimized translation of a Java application to OS/CPU specif
 
 Native image compilation has several restrictions (by design) of which most do not apply to Vert.x core code. This makes vert.x a very good candidate to write native images.
 
+This project will create native image by using Docker multi-stage build. First, the docker build will compile the project code to uber Jar file. Next stage involved graalvm image which contain native-image CLI, it will copy the Jar file and compile to native image. Final stage will use alpine image and copy resulted native image for smaller Docker image.
+
 ## Table Of Content
 * [Introduction](#introduction)
 * [Command Line](#command-line)
@@ -31,6 +33,22 @@ To package your application:
 To run your application:
 ```
 ./mvnw clean compile exec:java
+```
+
+To build Docker image:
+```
+docker build -t vertx-native-image -f nativeimage.Dockerfile
+
+# If using docker-compose
+docker-compose -f nativeimage.docker-compose.yml build
+```
+
+To run Docker image:
+```
+docker run -p 8888:8888 vertx-native-image
+
+# If using docker-compose
+docker-compose -f nativeimage.docker-compose.yml up
 ```
 
 ## Reference
