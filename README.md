@@ -57,6 +57,8 @@ docker-compose -f nativeimage.docker-compose.yml up
 * [Vert.x User Group](https://groups.google.com/forum/?fromgroups#!forum/vertx)
 * [Vert.x Discord](https://discord.gg/6ry7aqPWXy)
 * [Vert.x Gitter](https://gitter.im/eclipse-vertx/vertx-users)
+* [Building a Vert.x Native Image](https://how-to.vertx.io/graal-native-image-howto/)
+* [Tiny docker images for Java with GraalVM native image](https://batey.info/graalvm-docker-small-images.html)
 
 ## Contact
 Created by [Anas Juwaidi](mailto:anas.didi95@gmail.com)
